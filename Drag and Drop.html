@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drag and Drop</title>
+        <link rel="stylesheet" type="text/css" href="indextStyle.css">
+    </head>
+    <body>
+        <h1>Guitar Parts</h1>
+        <div class="cols">
+        <div class="dragCon">
+            <div class="box" draggable="true" id="box7">Head Stock</div>
+            <div class="box" draggable="true" id="box8">Nut</div>
+            <div class="box" draggable="true" id="box6">Tuning Pegs</div>
+            <div class="box" draggable="true" id="box5">Fret Bord</div>
+            <div class="box" draggable="true" id="box4">Frets</div>
+            <div class="box" draggable="true" id="box3">Neck</div>
+            <div class="box" draggable="true" id="box2">Sound Hole</div>
+            <div class="box" draggable="true" id="box9">Pick Guard</div>
+            <div class="box" draggable="true" id="box10">Bridge</div>
+            <div class="box" draggable="true" id="box1">Body</div>
+            
+        </div>
+        <div class="Guitar"></div>
+        <div class="dropCon">
+            <div class="drop" data-draggable-id="box1">1</div>
+            <div class="drop" data-draggable-id="box2">2</div>
+            <div class="drop" data-draggable-id="box3">3</div>
+            <div class="drop" data-draggable-id="box4">4</div>
+            <div class="drop" data-draggable-id="box5">5</div>
+            <div class="drop" data-draggable-id="box6">6</div>
+            <div class="drop" data-draggable-id="box7">7</div>
+            <div class="drop" data-draggable-id="box8">8</div>
+            <div class="drop" data-draggable-id="box9">9</div>
+            <div class="drop" data-draggable-id="box10">10</div>
+            
+        </div>
+    </div>
+    <div id="remarks"></div><br>
+    <div id="scores"></div>
+    <script src="indexScript.js"></script>
+    </body>
+</html>
